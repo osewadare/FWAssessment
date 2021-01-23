@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-const port = "8081";
+const port = process.env.PORT || 8080;
 
 //import routes
 const routes = require("./routes");
