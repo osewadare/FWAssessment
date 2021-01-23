@@ -7,7 +7,6 @@ const ruleValidator = function ruleValidator(req, res)
     var condition = req.body.rule.condition;
     var conditionValue = req.body.rule.condition_value;
     var data = req.body.data
-
     var result = mainValidationService(field, condition, conditionValue, data);
 
     if(result == "invalidField")

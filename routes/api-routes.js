@@ -6,7 +6,6 @@ const express = require("express");
 const {generateMockData}  = require("../controllers/homeController");
 const {ruleValidator}  = require("../controllers/ruleValidationController");
 
-const bodyParser = require('body-parser')
 var jsonParser = express.json()
 
 
